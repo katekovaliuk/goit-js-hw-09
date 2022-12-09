@@ -16,3 +16,15 @@ img {
   display: block;
   max-width: 100%;
 }
+
+:disabled {
+  background-color: transparent;
+  color: gray;
+  opacity: 0.5;
+}
+
+.button-switcher {
+  padding: 8px 12px;
+  font-size: 20px;
+  cursor: pointer;
+}
